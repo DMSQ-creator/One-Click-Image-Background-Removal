@@ -63,6 +63,10 @@ streamlit run app_ultra_final.py
 *   **自动化流程**：程序会自动创建一个带“日期+时间”的新文件夹，逐张处理图片，并直接保存进去。
 *   **完成后**：如果是在 Windows 系统下，程序会自动弹窗打开该文件夹。
 
+### 也可使用批处理一键运行 
+
+`app_ultra_final.bat` 一同下载放置在 `app_ultra_final.py` 同级目录
+
 ---
 
 ## 📂 文件夹结构说明
@@ -72,6 +76,7 @@ streamlit run app_ultra_final.py
 ```text
 我的项目目录/
 ├── app_ultra_final.py          # 主程序
+├── app_ultra_final.bat         # 批处理一键运行主程序
 ├── 抠图任务归档/                # [自动生成] 总仓库文件夹
 │   ├── 20260114_103001_任务(5张)/   # 上午10点半的任务
 │   │   ├── photo1_nobg.png
